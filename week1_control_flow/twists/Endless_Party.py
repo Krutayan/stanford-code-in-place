@@ -1,7 +1,7 @@
 """
 Twist: Endless Party (Guess My Animal)
 Course: Stanford Code in Place X
-Description: Initial bugged draft where print("Correct!") is incorrectly indented inside the while loop.
+Description: Fixed indentation bug so print("Correct!") executes only after the while loop finishes.
 """
 
 from animal import get_random_animal
@@ -34,8 +34,8 @@ def main():
         prompt = f"We are playing twenty questions and the answer is {animal}. The user has asked the following yes or no question: {question}. Please respond with exactly Yes, No, or Correct if they guess the animal exactly. Do not say anything else."
         gpt_response = call_gpt(prompt)
     
-        # Bug: Indented inside the loop, printing prematurely on wrong guesses
-        print("Correct!")
+    # Fixed: Outside the loop so it only prints on actual victory
+    print("Correct!")
 
 if __name__ == "__main__":
     main()
