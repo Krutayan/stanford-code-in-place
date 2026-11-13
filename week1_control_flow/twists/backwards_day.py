@@ -1,7 +1,7 @@
 """
 Twist: Backwards Day (Guess My Animal)
 Course: Code in Place X
-Description: Initial draft with the inverted while loop condition bug[cite: 8].
+Description: Fixed version with the corrected while loop condition (`!= "Correct"`)[cite: 8].
 """
 
 from animal import get_random_animal
@@ -22,8 +22,8 @@ def main():
     prompt = f"We are playing twenty questions and the answer is {animal}. The user has asked the following yes or no question: {question}. Please respond with exactly Yes, No, or Correct if they guess the animal exactly. Do not say anything else."
     gpt_response = call_gpt(prompt)
     
-    # Bug: This loops when it IS correct instead of when it is NOT correct
-    while gpt_response == "Correct":
+    # Fixed: Keep looping as long as the response is not correct
+    while gpt_response != "Correct":
         # Output GPT's response
         print(f"{gpt_response}.")
 
