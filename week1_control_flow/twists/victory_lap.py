@@ -1,7 +1,7 @@
 """
 Twist: Victory Lap (Guess My Animal)
 Course: Stanford Code in Place X
-Description: Initial implementation of the Twenty Questions game loop.
+Description: Added dynamic emoji generation via call_gpt to celebrate when the player guesses correctly[cite: 9].
 """
 
 from animal import get_random_animal
@@ -34,7 +34,12 @@ def main():
         prompt = f"We are playing twenty questions and the answer is {animal}. The user has asked the following yes or no question: {question}. Please respond with exactly Yes, No, or Correct if they guess the animal exactly. Do not say anything else."
         gpt_response = call_gpt(prompt)
     
+    # Ask GPT for an emoji of the correct animal
+    prompt_emoji = f"print only emoji for {animal}"
+    gpt_emoji = call_gpt(prompt_emoji)
+
     print("Correct!")
+    print(f"{gpt_emoji}")
 
 if __name__ == "__main__":
     main()
