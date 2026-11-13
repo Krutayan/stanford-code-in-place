@@ -4,6 +4,12 @@ from ai import call_gpt
 def main():
     # Choose a random animal
     animal = get_random_animal()
+    name = input("What's your name? ")
+    name_lower = name.lower()
+    if name_lower == "sam":
+        print(f"Welcome, VIP {name}! The red carpet is ready for you.")
+    else:
+        print(f"welcome {name}!!!")
     
     # Print the initial message to the user
     print("I am thinking of an animal.")
