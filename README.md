@@ -1,96 +1,60 @@
-# Week 1: Control Flow
+# Stanford Code in Place X
 
+My programming journey through **Stanford Code in Place X**, documenting my Python learning, assignments, practice problems, and coding challenges.
+
+This repository serves as my learning archive and portfolio, showcasing my progress from Python fundamentals to building a final project.
+
+## 📚 Course Structure
+
+| Week | Topic | Folder |
+|---|---|---|
+| Week 1 | If Statements and While Loops | `week1_control_flow/` |
+| Week 2 | Numbers and Random | `week2_numbers_and_random/` |
+| Week 3 | Lists and For Loops | `week3_lists_and_for_loops/` |
+| Week 4 | Functions | `week4_functions/` |
+| Week 5 | Dictionaries | `week5_dictionaries/` |
+| Week 6 | Putting It All Together | `week6_putting_it_all_together/` |
+| Final Project | Independent Python Project | `final_project/` |
+
+## 📁 Repository Organization
+
+Each weekly folder is organized into:
+
+- **`examples/`** – Practice problems and course assignments.
+- **`twists/`** – Additional challenges, extensions, and creative modifications.
+
+## 🛠️ Technologies
+
+- Python 3
+- Git
+- GitHub
+
+## 🎯 Learning Goals
+
+- Strengthen Python programming fundamentals.
+- Develop logical thinking and problem-solving skills.
+- Practice writing clean, readable, and well-documented code.
+- Build confidence through hands-on programming.
+- Create projects that demonstrate my learning and creativity.
+
+## 📈 Progress
+
+- [x] Week 1 – If Statements and While Loops
+- [ ] Week 2 – Numbers and Random
+- [ ] Week 3 – Lists and For Loops
+- [ ] Week 4 – Functions
+- [ ] Week 5 – Dictionaries
+- [ ] Week 6 – Putting It All Together
+- [ ] Final Project
+
+## 👨‍💻 About
+
+**Student:** Krutayan Pandey  
 **Course:** Stanford Code in Place X  
-**Topics:** If Statements, Boolean Logic, While Loops
+**GitHub:** [Krutayan](https://github.com/Krutayan)
 
-## Overview
-
-This directory contains my Week 1 work from Stanford Code in Place X. Throughout this module, I practiced fundamental Python programming concepts, including conditional statements, loops, user input, and logical reasoning.
-
-The goal of this week was to build a strong foundation in control flow and develop problem-solving skills through hands-on programming.
-
-## Learning Objectives
-
-- Understand and implement `if`, `elif`, and `else` statements.
-- Work with Boolean expressions and comparison operators.
-- Understand `while` loops and loop termination conditions.
-- Use user input to create interactive programs.
-- Apply logical reasoning to solve programming problems.
-- Debug logical errors and indentation issues.
-- Improve code readability and organization.
-
-## Repository Structure
-
-```text
-week1_control_flow/
-├── examples/
-│   └── Core exercise programs
-├── twists/
-│   ├── hello_detective.py
-│   ├── backwards_day.py
-│   ├── victory_lap.py
-│   └── endless_party.py
-└── translation_practice_loop.py
-```
-
-## Core Exercises
-
-### Basic Input and Output
-- Words of Encouragement
-- One Line Story
-- Say Hello
-
-### If Statements and While Loops
-- Secret Code
-- Wholesome Machine
-- AI Joke Bot
-- Guess My Animal
-- Spanish Quiz
-- Translation Practice
-- Echo Until Done
-- Simple Chatbot
-- Translation Practice Again
-
-## Twists and Debugging Challenges
-
-| Program | Focus |
-|---|---|
-| Hello Detective | Personalized messages using player names |
-| Backwards Day | Correcting an inverted loop condition |
-| Victory Lap | Dynamic celebratory output using `call_gpt` |
-| Endless Party | Debugging indentation and premature execution |
-
-## Concepts Practiced
-
-- Conditional execution
-- Boolean logic
-- Comparison operators
-- `while` loops
-- User input with `input()`
-- String manipulation
-- Loop control and termination
-- Debugging logical errors
-- Python indentation
-
-## Development Philosophy
-
-All programs in this directory are developed through manual problem-solving and independent implementation.
-
-My learning process emphasizes:
-
-- Writing code independently.
-- Understanding the reasoning behind every solution.
-- Debugging errors instead of blindly correcting them.
-- Maintaining meaningful Git commit history.
-- Documenting assignments and experiments.
-
-## Progress
-
-**Status:** Week 1 Completed
-
-This module established the foundation for subsequent topics in Python, including numbers, randomization, lists, functions, and dictionaries.
+This repository reflects my continuous learning, experimentation, and growth as a programmer.
 
 ---
 
-*Part of my Stanford Code in Place X learning journey.*
-
+*Learning Python one problem at a time.* 🚀
